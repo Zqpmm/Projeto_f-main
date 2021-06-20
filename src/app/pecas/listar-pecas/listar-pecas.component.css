@@ -1,0 +1,49 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+.list-group{
+    margin-bottom: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    background: #424343;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.list-group a{
+    text-decoration: none;
+}
+
+.list-red{
+    color: #FF0000 !important;
+}
+.list-orange{
+    color: #FF7A00;
+}
+.list-normal{
+    color: #000000;
+}
+.list-group-item {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    
+}
+.nova{
+    margin-left: auto;
+    margin-right: auto;
+}
+.nova button{
+    width: 100px;
+    margin-top: 5px;
+    
+    background: #717171;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
